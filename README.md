@@ -2,6 +2,18 @@
 
 ### A Deep Learning project focuses on Semantic Segmentation of Human Body 
 
+| Original | Unet_pred | Overlay |
+| :-------------------------: | :-------------------------: | :-------------------------: |
+![Unet_1](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/images/Unet/SJ.jpg)  | ![Unet_2](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/images/Unet/pred_SJ.jpg) | ![Unet_3](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/images/Unet/overlay_SJ.jpg) |
+
+| Original | DeepLabV3p_pred | Overlay |
+| :-------------------------: | :-------------------------: | :-------------------------: |
+![DeepLabV3p_1](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/images/DeeplabV3p/SJ.jpg)  | ![DeepLabV3p_2](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/images/DeeplabV3p/pred_SJ.jpg) | ![DeepLabV3p_3](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/images/DeeplabV3p/overlay_SJ.jpg) |
+
+![Webcam_Unet](https://github.com/tshr-d-dragon/Virtual_Paint/blob/main/Virtual_Paint.gif)
+
+![Webcam_DeepLabV3p](https://github.com/tshr-d-dragon/Virtual_Paint/blob/main/Virtual_Paint.gif)
+
 This projects helps predicting segmentation masks of Human Body and hence changing background. I tried 2 transfer learning models for training: Unet with MobileNetV2 as a backbone and DeepLabV3p with MobileNetV2 as a backbone. Performance for both of the models on validation dataset trained for 45 epochs is given below:
 
 | Model  | precision | recall | f1-score | iou |
