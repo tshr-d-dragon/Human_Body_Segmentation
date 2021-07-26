@@ -19,7 +19,6 @@ from DeepLabV3p import Deeplabv3
 from UNET_MobileNetV2 import Unet_MobileNetV2
 from configparser import ConfigParser
 from utils import Substract_BG
-from smooth_borders import fix_segmentation_maps
 
 
 """ Read config File """
@@ -89,7 +88,6 @@ def Prediction(model, prediction_type = 'video', mode = 0, path = 0, save_path =
             mode = 5
         elif cv2.waitKey(1) & 0xFF == ord('0'): 
             mode = 0
-        pred = fix_segmentation_maps(pred)
         mask = Substract_BG(frame, pred, mode)
         cv2.imwrite(save_path, mask)
     
@@ -144,7 +142,6 @@ def Prediction(model, prediction_type = 'video', mode = 0, path = 0, save_path =
                 mode = 5
             elif cv2.waitKey(1) & 0xFF == ord('0'): 
                 mode = 0
-            pred = fix_segmentation_maps(pred)
             mask =  Substract_BG(frame, pred, mode)
             
             # pred = np.dstack([pred, pred, pred])
