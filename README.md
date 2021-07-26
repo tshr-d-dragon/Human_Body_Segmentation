@@ -10,9 +10,11 @@
 | :-------------------------: | :-------------------------: | :-------------------------: |
 ![DeepLabV3p_1](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/images/DeeplabV3p/SJ.jpg)  | ![DeepLabV3p_2](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/images/DeeplabV3p/pred_SJ.jpg) | ![DeepLabV3p_3](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/images/DeeplabV3p/overlay_SJ.jpg) |
 
-![Webcam_Unet](https://github.com/tshr-d-dragon/Virtual_Paint/blob/main/Virtual_Paint.gif)
+### Predictions on live webcam using Unet:
+![Webcam_Unet](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/webcam/Final_Unet.gif)
 
-![Webcam_DeepLabV3p](https://github.com/tshr-d-dragon/Virtual_Paint/blob/main/Virtual_Paint.gif)
+### Predictions on live webcam using DeepLabV3p:
+![Webcam_DeepLabV3p](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/webcam/Final_Deeplab.gif)
 
 This projects helps predicting segmentation masks of Human Body and hence changing background. I tried 2 transfer learning models for training: Unet with MobileNetV2 as a backbone and DeepLabV3p with MobileNetV2 as a backbone. Performance for both of the models on validation dataset trained for 45 epochs is given below:
 
@@ -33,12 +35,11 @@ All various modes used for changing the background are mentioned below:
 1. config.ini is the configuration file used to specify the parameters such as model_selection, prediction_type, input_file_path, BG_mode, and save_path.
 2. predict.py file contains code for prediction. 
 3. utils.py file contains all helper functions for changing the background.
-4. smooth_borders.py contains code for the smoothening of boundaries of the predicted segmentation mask.
-5. Underwater.mp4 and bg.jpg are used for background.
-6. train folder training jupyter notebook for Unet and DeepLabV3p.
-7. Models folder contains .py files for Unet and DeepLabV3p along with their weights (.h5 file).
-8. predictions folder contains prediction of both models on random online images as well as videos taken live from Webcam.
-9. requirement.txt file contains all the required dependencies.
+4. Underwater.mp4 and bg.jpg are used for background.
+5. train folder training jupyter notebook for Unet and DeepLabV3p.
+6. Models folder contains .py files for Unet and DeepLabV3p along with their weights (.h5 file).
+7. predictions folder contains prediction of both models on random online images as well as videos taken live from Webcam.
+8. requirement.txt file contains all the required dependencies.
 
 ## To run the prject, follow below steps
 1. Ensure that you are in the project home directory
