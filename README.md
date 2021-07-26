@@ -55,8 +55,4 @@ All various modes used for changing the background are mentioned below:
 2. I have modified https://github.com/Pawandeep-prog/resnet-flask-webapp/tree/main/templates html templates for flask
 3. The credit for image used in html file for background goes to:
  
-https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Tomato_Garden_%28Unsplash%29.jpg/800px-Tomato_Garden_%28Unsplash%29.jpg
-  
-https://www.thespruce.com/thmb/47xukLrGeP6r8jbmyeFFujXn4ug=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/top-tomato-growing-tips-1402587-11-c6d6161716fd448fbca41715bbffb1d9.jpg
-
 ##### For better predictions, we need better image quality dataset for training and train it for more epochs with different backbones.
