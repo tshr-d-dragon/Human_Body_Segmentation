@@ -5,7 +5,7 @@
 
 | Original | Unet_pred | Overlay |
 | :-------------------------: | :-------------------------: | :-------------------------: |
-| ![Unet_1](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/images/Unet/75805310.jpg)  | ![Unet_2](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/images/Unet/pred_75805310.jpg) | ![Unet_3](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/images/Unet/overlay_75805310.jpg) |
+| ![Unet_1](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/images/DeeplabV3p/75805310.jpg)  | ![Unet_2](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/images/Unet/pred_75805310.jpg) | ![Unet_3](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/images/Unet/overlay_75805310.jpg) |
 
 | Original | DeepLabV3p_pred | Overlay |
 | :-------------------------: | :-------------------------: | :-------------------------: |
