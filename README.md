@@ -2,6 +2,24 @@
 
 ### A Deep Learning project focuses on Semantic Segmentation of Human Body 
 
+This projects helps predicting segmentation masks of Human Body and hence changing background. I tried 2 transfer learning models for training: Unet with MobileNetV2 as a backbone and DeepLabV3p with MobileNetV2 as a backbone. Performance for both of the models on validation dataset trained for 45 epochs is given below:
+
+| Model  | precision | recall | f1-score | iou |
+| :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
+| Unet  | **0.9195**  | 0.8912  | 0.9044  | 0.8267  |
+| DeepLabV3p  | 0.9069 | **0.9131**  | **0.9095**  | **0.8348** |
+
+
+All various modes used for changing the background are mentioned below:
+- 0: Picture in BG
+- 1: Video in BG
+- 2: Blurred Picture in BG
+- 3: Blurred Video in BG
+- 4: B/W Picture in BG
+- 5: B/W Video in BG
+
+**Note:** Whenever the keys (0, 1, 2, 3, 4, 5) are pressed, Background modes will be changed.
+
 
 ### Predictions using Unet: 
 | Original | Prediction | Overlay |
@@ -19,22 +37,6 @@
 | :-------------------------: | :-------------------------: |
 | ![Webcam_Unet](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/webcam/Final_Unet.gif) | ![Webcam_DeepLabV3p](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/webcam/Final_Deeplab.gif) |
 
-
-This projects helps predicting segmentation masks of Human Body and hence changing background. I tried 2 transfer learning models for training: Unet with MobileNetV2 as a backbone and DeepLabV3p with MobileNetV2 as a backbone. Performance for both of the models on validation dataset trained for 45 epochs is given below:
-
-| Model  | precision | recall | f1-score | iou |
-| :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
-| Unet  | **0.9195**  | 0.8912  | 0.9044  | 0.8267  |
-| DeepLabV3p  | 0.9069 | **0.9131**  | **0.9095**  | **0.8348** |
-
-
-All various modes used for changing the background are mentioned below:
-- 0: Picture in BG
-- 1: Video in BG
-- 2: Blurred Picture in BG
-- 3: Blurred Video in BG
-- 4: B/W Picture in BG
-- 5: B/W Video in BG
 
 
 ## Project Structure
