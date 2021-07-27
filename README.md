@@ -29,7 +29,7 @@ All various modes used for changing the background are mentioned below:
 - 2: Blurred Picture in BG
 - 3: Blurred Video in BG
 - 4: B/W Picture in BG
-- 5: B/W Vide in BG
+- 5: B/W Video in BG
 
 ## Project Structure
 1. config.ini is the configuration file used to specify the parameters such as model_selection, prediction_type, input_file_path, BG_mode, and save_path.
@@ -51,8 +51,13 @@ All various modes used for changing the background are mentioned below:
 
 ## Please feel free to connect for any suggestions or doubts!!!
 ## Credits
-1. The credits for dataset used for training goes to https://www.kaggle.com/noulam/tomato
-2. I have modified https://github.com/Pawandeep-prog/resnet-flask-webapp/tree/main/templates html templates for flask
-3. The credit for image used in html file for background goes to:
- 
+1. The credits for dataset used for training goes to https://www.kaggle.com/tapakah68/supervisely-filtered-segmentation-person-dataset
+2. I have referred https://github.com/bonlime/keras-deeplab-v3-plus/ repository for DeepLabV3p model.
+3. The credit for images and videos used for prediction and background goes to:
+   -   https://thedigitalweekly.com/2021/07/06/black-widow-sequel-possible-says-director-cate-shortland/
+   -   https://twitter.com/MarvelFansIT/status/1378680224922136576/photo/1
+   -   https://twitter.com/carles_madness/status/1359549136480178182/photo/1
+   -   Image by <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2179183">Pexels</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2179183">Pixabay</a>
+   -   Video by <a href="https://pixabay.com/users/waiguobox-2405726/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5271">Timofey Iasinskii</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5271">Pixabay</a>
+
 ##### For better predictions, we need better image quality dataset for training and train it for more epochs with different backbones.
