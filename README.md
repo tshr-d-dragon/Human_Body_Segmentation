@@ -33,7 +33,7 @@ All various modes used for changing the background are mentioned below:
 | ![DeepLabV3p_1](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/images/DeeplabV3p/75805310.jpg)  | ![DeepLabV3p_2](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/images/DeeplabV3p/pred_75805310.jpg) | ![DeepLabV3p_3](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/images/DeeplabV3p/overlay_75805310.jpg) |
 
 
-| Predictions on live webcam using Unet | Predictions on live webcam using DeepLabV3p |
+| Predictions on webcam using Unet | Predictions on webcam using DeepLabV3p |
 | :-------------------------: | :-------------------------: |
 | ![Webcam_Unet](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/webcam/Final_Unet.gif) | ![Webcam_DeepLabV3p](https://github.com/tshr-d-dragon/Human_Body_Segmentation/blob/main/predictions/webcam/Final_Deeplab.gif) |
 
