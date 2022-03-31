@@ -50,7 +50,7 @@ All various modes used for changing the background are mentioned below:
 8. requirement.txt file contains all the required dependencies.
 
 
-## To run the prject, follow below steps
+## To run the project, follow below steps
 1. Ensure that you are in the project home directory
 2. Create anaconda environment
 3. Activate environment
