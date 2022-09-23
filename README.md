@@ -2,7 +2,7 @@
 
 ### A Deep Learning project focuses on Semantic Segmentation of Human Body 
 
-This projects helps predicting segmentation masks of Human Body and hence changing background. I used 2 models for training: **Unet with MobileNetV2** as a backbone and **DeepLabV3p with MobileNetV2** as a backbone. Performance for both of the models on validation dataset trained for **45 epochs** is given below:
+This project helps predicting segmentation masks of Human Body and hence changing background. I used 2 models for training: **Unet with MobileNetV2** as a backbone and **DeepLabV3p with MobileNetV2** as a backbone. Performance for both of the models on validation dataset trained for **45 epochs** is given below:
 
 | Model  | Precision | Recall | F1-score | IoU |
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
